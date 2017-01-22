@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<ImageView android:id="@id/header_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/header_bg" android:scaleType="fitXY" />
+		<ImageView android:id="@id/header_bg_camera" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_camera" />
+		<FrameLayout android:id="@id/preview" android:layout_width="110.0dip" android:layout_height="110.0dip" android:layout_marginLeft="7.0dip" android:layout_marginTop="7.0dip" />
+		<TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="25.0sp" android:layout_gravity="center_vertical" android:id="@id/header_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Large Text" />
+		<TextView android:textSize="30.0sp" android:textStyle="bold" android:ellipsize="marquee" android:layout_gravity="bottom|center" android:id="@id/header_news" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="23.0dip" android:text="hellobar" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+		<LinearLayout android:layout_gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<Button android:id="@id/header_language_switch" android:background="@drawable/thai" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/buttonStyleSmall" />
+		</LinearLayout>
+		<LinearLayout android:layout_gravity="center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" android:layout_marginRight="5.0dip">
+			<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+				<DigitalClock android:textSize="25.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="right" android:id="@id/digitalClock1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DigitalClock" />
+				<TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="right" android:id="@id/header_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0px" android:text="Sat, Aug 28, 2012" />
+				<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/operator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Medium Text" />
+					<ImageView android:layout_gravity="right" android:id="@id/signal_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+				</FrameLayout>
+			</LinearLayout>
+			<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px">
+				<ImageView android:id="@id/light" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+				<ImageView android:id="@id/sound" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			</LinearLayout>
+		</LinearLayout>
+	</FrameLayout>
+</FrameLayout>

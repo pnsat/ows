@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/FrameLayout_background" android:background="@drawable/bg_blue" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/header_menu" />
+		<ImageView android:layout_gravity="center_horizontal" android:id="@id/numpad_logo_imageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_all_one2call" />
+		<TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="40.0sp" android:textStyle="bold" android:textColor="@color/black" android:layout_gravity="center_horizontal" android:id="@id/logoText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="กรุณาตรวจสอบข้อมูล" />
+		<TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="40.0sp" android:textStyle="bold" android:textColor="@color/black" android:layout_gravity="center_horizontal" android:id="@id/numpad_text_fill_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="xoxoxoxo" />
+		<LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<EditText android:textSize="34.0sp" android:textStyle="bold" android:gravity="center_horizontal" android:id="@id/year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" android:layout_weight="1.0" android:inputType="text" />
+		</LinearLayout>
+		<TableLayout android:layout_gravity="center" android:id="@id/tableRoot" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<TableRow android:id="@id/tableRow1" android:layout_width="wrap_content" android:layout_height="25.0dip">
+				<Button android:textSize="30.0sp" android:textStyle="bold" android:id="@id/fake_click" android:background="@drawable/bt_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="1" android:hint="1" android:layout_weight="0.7" />
+				<Button android:textSize="30.0sp" android:textStyle="bold" android:id="@id/button2" android:background="@drawable/bt_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="2" android:hint="2" android:layout_weight="0.7" />
+				<Button android:textSize="30.0sp" android:textStyle="bold" android:id="@id/button3" android:background="@drawable/bt_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="3" android:hint="3" android:layout_weight="0.7" />
+			</TableRow>
+			<TableRow android:id="@id/tableRow2" android:layout_width="wrap_content" android:layout_height="25.0dip">
+				<Button android:textSize="30.0sp" android:textStyle="bold" android:id="@id/button4" android:background="@drawable/bt_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="4" android:hint="4" android:layout_weight="0.7" />
+				<Button android:textSize="30.0sp" android:textStyle="bold" android:id="@id/button5" android:background="@drawable/bt_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="5" android:hint="5" android:layout_weight="0.7" />
+				<Button android:textSize="30.0sp" android:textStyle="bold" android:id="@id/button6" android:background="@drawable/bt_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="6" android:hint="6" android:layout_weight="0.7" />
+			</TableRow>
+			<TableRow android:id="@id/tableRow3" android:layout_width="wrap_content" android:layout_height="25.0dip">
+				<Button android:textSize="30.0sp" android:textStyle="bold" android:id="@id/button7" android:background="@drawable/bt_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="7" android:hint="7" android:layout_weight="0.7" />
+				<Button android:textSize="30.0sp" android:textStyle="bold" android:id="@id/button8" android:background="@drawable/bt_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="8" android:hint="8" android:layout_weight="0.7" />
+				<Button android:textSize="30.0sp" android:textStyle="bold" android:id="@id/button9" android:background="@drawable/bt_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="9" android:hint="9" android:layout_weight="0.7" />
+			</TableRow>
+			<TableRow android:id="@id/tableRow4" android:layout_width="wrap_content" android:layout_height="25.0dip">
+				<Button android:textSize="30.0sp" android:textStyle="bold" android:id="@id/button10" android:background="@drawable/bt_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="." android:hint="star" android:layout_weight="0.7" />
+				<Button android:textSize="30.0sp" android:textStyle="bold" android:id="@id/button11" android:background="@drawable/bt_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="0" android:hint="0" android:layout_weight="0.7" />
+				<Button android:textSize="30.0sp" android:textStyle="bold" android:id="@id/button12" android:background="@drawable/bt_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="ลบ" android:hint="delete" android:layout_weight="0.7" />
+			</TableRow>
+		</TableLayout>
+		<TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="30.0sp" android:textStyle="bold" android:textColor="@color/black" android:layout_gravity="center_horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" android:text="จุดรับชำระทรูมันนี่ ผ่าน MediaCenter" />
+		<Button android:id="@id/button13" android:background="@drawable/bt_numberg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="กดเพื่อไปยังหน้าถัดไป" style="@color/blue" />
+	</LinearLayout>
+	<FrameLayout android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/footer_menu" />
+	</FrameLayout>
+</FrameLayout>

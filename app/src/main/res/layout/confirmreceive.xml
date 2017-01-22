@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<ImageView android:id="@id/background_imageview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/white" />
+		<include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/header_menu" />
+		<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginTop="112.0dip" android:layout_marginRight="20.0dip">
+			<ImageView android:layout_gravity="center" android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:src="@drawable/true_bill" />
+			<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="center_horizontal" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:text="ใบยืนยันรายการ" />
+			<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip">
+				<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="วันที่ทำรายการ" />
+				<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="left" android:id="@id/confirmdatetime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="210.0dip" android:text="20/10/2015   เวลา   13:52:54" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip">
+				<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:text="จุดรับชำระ" />
+				<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="210.0dip" android:text="00000-00001" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip">
+				<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="เลขที่รายการ" />
+				<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="210.0dip" android:text="\ 15102013524057520113" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip">
+				<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ชำระค่าบริการ : สินเชื่อเพาเวอร์บาย" />
+				<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="250.0dip" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip">
+				<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="รหัสอ้างอิง 1 :" />
+				<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="210.0dip" android:text="\ 1133050005953008" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip">
+				<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="รหัสอ้างอิง 2 :" />
+				<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="250.0dip" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip">
+				<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:text="จำนวนเงิน" />
+				<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="300.0dip" android:text="10.00 บาท" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip">
+				<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:text="ค่าธรรมเนียม" />
+				<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="300.0dip" android:text="10.00 บาท" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip">
+				<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:text="รวมทั้งสิ้น" />
+				<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="300.0dip" android:text="20.00 บาท" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip">
+				<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="หมายเลขติดต่อลูกค้า" />
+				<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="210.0dip" android:text="089-253-3425" />
+			</FrameLayout>
+			<TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:text="หมายเหตุ :" />
+			<TextView android:textSize="18.0sp" android:textColor="@color/black" android:id="@id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:text="1. กรุณาตรวจสอบและเก็บข้อมูลไว้เป็นหลักฐาน" />
+			<TextView android:textSize="18.0sp" android:textColor="@color/black" android:id="@id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:text="2. เอกสารฉบับนี้ออกโดย &amp;quot;ทรูมันนี่&amp;quot; ใช้เพื่อยืนยันการทำรายการ" />
+			<TextView android:textSize="18.0sp" android:textColor="@color/black" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:text="จุดรับชำระทรูมันนี่ ผ่าน Media Center" />
+			<TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:text="Call Center 090-885-2904" />
+			<Button android:textSize="30.0sp" android:textStyle="bold" android:textColor="@color/black" android:layout_gravity="center" android:id="@id/print" android:background="@drawable/bt_number" android:visibility="gone" android:layout_width="400.0dip" android:layout_height="wrap_content" android:layout_marginTop="80.0dip" android:text="ปริ้นใบยืนยันรายการ" android:hint="5" android:layout_weight="0.7" />
+		</LinearLayout>
+		<include android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/footer_menu" />
+	</FrameLayout>
+</LinearLayout>

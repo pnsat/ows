@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	<LinearLayout android:layout_gravity="center" android:id="@id/Footer" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<Button android:id="@id/footer_Back" android:background="@drawable/bt_back_th" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+		<Button android:id="@id/footer_Cancel" android:background="@drawable/bt_cancel_th" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+		<Button android:id="@id/footer_Next" android:background="@drawable/bt_next_th" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+	</LinearLayout>
+	<FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<ImageView android:layout_gravity="center" android:id="@id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_version" />
+		<TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="24.0sp" android:textStyle="bold" android:ellipsize="marquee" android:layout_gravity="center" android:id="@id/footer_text_scroll" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/VersionApp" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+	</FrameLayout>
+</LinearLayout>

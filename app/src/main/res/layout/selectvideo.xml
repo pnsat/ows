@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/FrameLayout_background" android:background="@drawable/bg_orange" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/header_menu" />
+		<TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="25.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/selectvideo_text_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="xoxoxoxoxoxoxo" />
+		<LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<Button android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/select_video_button0" android:background="@drawable/bt_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="xoxoxoxoxo" android:layout_weight="0.7" />
+			<Button android:textSize="18.0sp" android:textColor="@color/black" android:id="@id/select_video_button1" android:background="@drawable/bt_menu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="xoxoxoxoxo" android:layout_weight="0.7" />
+		</LinearLayout>
+		<LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<Button android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/select_video_button2" android:background="@drawable/bt_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="xoxoxoxoxo" android:layout_weight="0.7" />
+			<Button android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/select_video_button3" android:background="@drawable/bt_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="xoxoxoxoxo" android:layout_weight="0.7" />
+		</LinearLayout>
+		<LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<Button android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/select_video_button4" android:background="@drawable/bt_menu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="xoxoxoxoxo" android:layout_weight="0.7" />
+		</LinearLayout>
+	</LinearLayout>
+	<FrameLayout android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/footer_menu" />
+	</FrameLayout>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<ImageView android:id="@id/imageView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_blue" android:scaleType="fitXY" />
+		<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/header_menu" />
+			<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="160.0dip">
+				<ImageView android:layout_gravity="center" android:id="@id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="200.0dip" android:src="@drawable/barcode_image" />
+				<ImageView android:layout_gravity="center" android:id="@id/background_imageview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="25.0dip" />
+				<EditText android:enabled="false" android:textColorHint="@color/brown" android:layout_gravity="center_vertical" android:id="@id/barcodeField" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="80.0dip" android:layout_marginRight="80.0dip" android:layout_marginBottom="50.0dip" android:hint="Use Barcode Scanner" android:ems="10" />
+			</FrameLayout>
+		</FrameLayout>
+		<FrameLayout android:layout_gravity="bottom|center" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/footer_menu" />
+		</FrameLayout>
+	</FrameLayout>
+</FrameLayout>
